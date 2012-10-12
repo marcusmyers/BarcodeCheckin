@@ -96,6 +96,8 @@
 			returnStr = [jsonDict objectForKey:@"excuse"];
 			self.view.backgroundColor = [UIColor redColor];
 		} else {
+            
+			self.view.backgroundColor = [UIColor greenColor];
 			returnStr = [NSString stringWithFormat:@"%@ has checked into post prom with ticket number: %@", name, ticketId];
 		}
 		resultText.text = returnStr;

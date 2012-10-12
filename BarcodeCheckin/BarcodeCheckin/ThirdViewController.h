@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "zbar.h"
 
 @interface ThirdViewController : UIViewController <ZBarReaderDelegate>
 {
