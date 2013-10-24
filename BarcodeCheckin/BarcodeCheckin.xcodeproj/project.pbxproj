@@ -426,6 +426,8 @@
 		264FCD96152D168600319A5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Napoleon Area City School District";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Napoleon Area City School District";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarcodeCheckin/BarcodeCheckin-Prefix.pch";
 				INFOPLIST_FILE = "BarcodeCheckin/BarcodeCheckin-Info.plist";
@@ -434,6 +436,8 @@
 					"\"$(SRCROOT)/BarcodeCheckin/ZBarSDK\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "53F7DC3C-182A-4DB0-9703-85D57FEEE172";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "53F7DC3C-182A-4DB0-9703-85D57FEEE172";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
